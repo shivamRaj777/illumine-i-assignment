@@ -1,0 +1,40 @@
+/* styles/Global.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+} 
+/* Add a margin-top to the main content to prevent overlap with the fixed navbar */
+
+
+.main-content {
+    /* margin-top: 60px;  Adjust for the navbar height */
+    padding: 20px;
+    height: calc(100vh - 60px); /* Fill remaining space */
+    overflow-y: auto; /* Allow vertical scrolling */
+    background-color: #f4f4f4; /* Optional: contrast background */
+}
+
+

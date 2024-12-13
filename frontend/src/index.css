@@ -1,0 +1,11 @@
+body {
+   /* overflow: hidden;  Disables both vertical and horizontal scrolling */
+    margin: 0; /* Ensures there is no extra spacing around the page */
+}
+
+/* Optional: Ensure no scrolling on the root element */
+html {
+    overflow: hidden;
+    height: 100%;
+    
+}
